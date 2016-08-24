@@ -1,2 +1,2 @@
-#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit
-Debug|Win32|\\pfls0211us\home\danz50of\GitHub\Visual-Studio\ReadXML\OpenMLB\|
+#TargetFrameworkVersion=v4.0:PlatformToolSet=v140:EnableManagedIncrementalBuild=false:VCToolArchitecture=Native32Bit:WindowsTargetPlatformVersion=8.1
+Debug|Win32|E:\UserDocs\My Documents\GitHub\Visual Studio\ReadXML\OpenMLB\|

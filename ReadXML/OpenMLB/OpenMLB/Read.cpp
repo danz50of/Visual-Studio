@@ -3,6 +3,8 @@
 #include <string>
 #include <cstdlib>
 #include <fstream>
+#include <stdio.h>
+//#include <CkHttp.h>   //Chilkat is a library DZ will start investigating 6/16/2016  downloaded to chilkat folder locally
 
 using namespace std;
 
