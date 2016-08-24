@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HelloWorldCross.iOS">
+      <UniqueIdentifier>{3e836115-5038-4e0b-9a34-6e8b89ca953e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HelloWorldCross.iOS\Supporting Files">
+      <UniqueIdentifier>{26451963-8b7f-4651-a91d-f0122fc91664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images.xcassets">
+      <UniqueIdentifier>{045d4928-d0df-49e3-8212-6ccc9521a9c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Products">
+      <UniqueIdentifier>{7b303634-df9f-4f20-a199-ac7f0348ab1f}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="HelloWorldCross.iOS\AppDelegate.h">
+      <Filter>HelloWorldCross.iOS</Filter>
+    </ClInclude>
+    <ClInclude Include="HelloWorldCross.iOS\GameViewController.h">
+      <Filter>HelloWorldCross.iOS</Filter>
+    </ClInclude>
+    <Content Include="HelloWorldCross.iOS\Base.lproj\Main.storyboard">
+      <Filter>HelloWorldCross.iOS</Filter>
+    </Content>
+    <Content Include="HelloWorldCross.iOS\Images.xcassets\AppIcon.appiconset\Contents.json">
+      <Filter>Images.xcassets</Filter>
+    </Content>
+    <None Include="HelloWorldCross.iOS\Info.plist">
+      <Filter>HelloWorldCross.iOS\Supporting Files</Filter>
+    </None>
+    <ObjCCompile Include="HelloWorldCross.iOS\AppDelegate.mm">
+      <Filter>HelloWorldCross.iOS</Filter>
+    </ObjCCompile>
+    <ObjCCompile Include="HelloWorldCross.iOS\GameViewController.mm">
+      <Filter>HelloWorldCross.iOS</Filter>
+    </ObjCCompile>
+    <ObjCCompile Include="HelloWorldCross.iOS\main.mm">
+      <Filter>HelloWorldCross.iOS\Supporting Files</Filter>
+    </ObjCCompile>
+  </ItemGroup>
+</Project>

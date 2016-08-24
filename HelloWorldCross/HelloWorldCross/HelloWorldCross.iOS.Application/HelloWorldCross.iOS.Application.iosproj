@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|ARM">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|ARM64">
+      <Configuration>Debug</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x86">
+      <Configuration>Debug</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM">
+      <Configuration>Release</Configuration>
+      <Platform>ARM</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|ARM64">
+      <Configuration>Release</Configuration>
+      <Platform>ARM64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x86">
+      <Configuration>Release</Configuration>
+      <Platform>x86</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <MinimumVisualStudioVersion>14.0</MinimumVisualStudioVersion>
+    <ProjectVersion>1.0</ProjectVersion>
+    <ProjectGuid>{63edcb7a-2414-483a-a786-0583a2eadf16}</ProjectGuid>
+    <RootNamespace>HelloWorldCross</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.Default.props" />
+  <PropertyGroup Label="Configuration" />
+  <Import Project="$(iOSTargetsPath)\iOS.props" />
+  <ImportGroup Label="ExtensionSettings" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <ClInclude Include="HelloWorldCross.iOS\AppDelegate.h" />
+    <ClInclude Include="HelloWorldCross.iOS\GameViewController.h" />
+    <Content Include="HelloWorldCross.iOS\Base.lproj\Main.storyboard" />
+    <Content Include="HelloWorldCross.iOS\Images.xcassets\AppIcon.appiconset\Contents.json" />
+    <None Include="HelloWorldCross.iOS\Info.plist" />
+    <ObjCCompile Include="HelloWorldCross.iOS\AppDelegate.mm" />
+    <ObjCCompile Include="HelloWorldCross.iOS\GameViewController.mm" />
+    <ObjCCompile Include="HelloWorldCross.iOS\main.mm" />
+  </ItemGroup>
+  <ItemGroup>
+    <pbxproj Include="HelloWorldCross.iOS.Application.xcodeproj\project.pbxproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HelloWorldCross.iOS.StaticLibrary\HelloWorldCross.iOS.StaticLibrary.vcxproj">
+      <Project>{4d998502-0737-4674-8d8f-f28f1c7f7526}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(iOSTargetsPath)\iOS.targets" />
+  <ImportGroup Label="ExtensionTargets" />
+</Project>
