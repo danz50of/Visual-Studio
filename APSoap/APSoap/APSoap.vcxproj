@@ -122,6 +122,9 @@
     <None Include="test1.in" />
     <None Include="test2.in" />
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AddSoap.cpp" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
